@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-1{
+    width: 250px;
+    height: 200px;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.hide{
+    display: none;
+}
+
+#div-1{
+    background-color: aquamarine;
+    width: 250px;
+    height: 200px;
+    
+}
+
+#div-2{
+    background-color: blueviolet;
+    width: 250px;
+    height: 200px;
+}
+
