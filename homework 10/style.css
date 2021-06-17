@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#main{
+
+  text-align: center;
+}
+
+.input__work{
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.input__work input{
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    border-style: hidden;
+}
+
+.input__work .icon{
+   font-size: 30px;
+}
+
+.input__work input:hover{
+    border-style: hidden;
+}
+
+.input__work i, input{
+   padding-left: 5px;
+   margin-top: 10px;
+}
+
+
+.btn__form{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+
+}
+
+.btn__form button{
+    background-color: #fff;
+    border-style: none;
+   
+}
+
+.btn__form .total__item, .complete__list , .clear__complete{
+    margin-top: 10px;
+}
+
+.btn__form .complete__list button:hover{
+    border: 1px solid black;
+}
+.done{
+    opacity: 0.4;
+}
+
