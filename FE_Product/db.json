@@ -1,0 +1,100 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "image": "./img/Quần Jean rách/mausac_mindigo_10f20dpa036__4__83540e42a567450e871f5e54799a25b4_1.jpg",
+      "title": "Quần Jean rách. SLIM CROP Form - 10F20DPA036",
+      "price": "480.000&nbsp;₫",
+      "miniimg": "./img/10f20dpa036.3_1_1.jpg",
+      "contentmini1": "M/INDIGO"
+    },
+    {
+      "id": 2,
+      "image": "./img/Quần Jean trơn/mausac_dgrey_10f20dpa045__3__f96be7eb755242d6a1bf9d6ed867b13b_1.jpg",
+      "title": "Quần Jean trơn. SLIM form - 10F20DPA045",
+      "price": "480.000&nbsp;₫",
+      "miniimg": "./img/_dsc9170_1.jpg",
+      "contentmini1": "D/GREY"
+    },
+    {
+      "id": 3,
+      "image": "./img/Quần vải/dsc_5138_1.jpg",
+      "title": "Quần vải. SLIM CROP form - 10F20PFO024",
+      "price": "390.000&nbsp;₫",
+      "miniimg": "./img/dsc_5136_1_1_1.jpg",
+      "contentmini1": " BLACK"
+    },
+    {
+      "image": "./img/Quần vải kẻ sọc/mausac_black_dsc_7842_a620a9b959f64f32938ab38f368556b1_1.jpg",
+      "title": "Quần vải kẻ sọc. Rayon. SLIM CROP form - 10S20PFO015",
+      "price": "420.000&nbsp;₫",
+      "miniimg": "./img/10s20pfo015_w_1_1.jpg",
+      "contentmini1": " BLACK BEAUTY",
+      "id": 4
+    },
+    {
+      "image": "./img/Áo Polo phối màu/10s21pol016.4_1.jpg",
+      "title": "Áo polo phối màu, decor Rib. FITTED form - 10S21POL016",
+      "price": "420.000&nbsp;₫",
+      "miniimg": "./img/10s21pol016.6_1_1.jpg",
+      "contentmini1": " BRIGHT WHITE",
+      "id": 5
+    },
+    {
+      "image": "./img/Quần vải trơn/dsc_7548_1.jpg",
+      "title": "Quần vải kẻ sọc. Rayon. SLIM CROP form - 10S20PFO015",
+      "price": "420.000&nbsp;₫",
+      "miniimg": "./img/cheo_19_1_16.png",
+      "contentmini1": "GREY MELANGE",
+      "id": 6
+    },
+    {
+      "image": "./img/Áo thun tay ngắn/10f20tsh001.1_1.jpg",
+      "title": "Áo thun tay ngắn. Cotton. Fitted form - 10F20TSH001",
+      "price": "190.000&nbsp;₫",
+      "miniimg": "./img/10f20tsh001.14_2_1.jpg",
+      "contentmini1": " NIGHT SKY",
+      "id": 7
+    },
+    {
+      "image": "./img/Quần Jean đen/mausac_black_dsc_0716__2__0ac6d2bbb2a94f2da7f33ce337a26ece_7.jpg",
+      "title": "Quần JEAN đen. COTTON. SLIM FIT form - 10S20DPA055",
+      "price": "450.000&nbsp;₫",
+      "miniimg": "./img/10s20dpa055_01_1_1.jpg",
+      "contentmini1": "BLACK",
+      "id": 8
+    },
+    {
+      "image": "./img/Quần short trơn/mausac_black_10s20psh006_2__1.jpg",
+      "title": "Quần short trơn. Cotton. STRAIGHT form - 10S20PSH006",
+      "price": "350.000&nbsp;₫",
+      "miniimg": "./img/mausac_micro_10s20psh006_6__1_1.jpg",
+      "contentmini1": "TUFFET",
+      "id": 9
+    },
+    {
+      "image": "./img/Quần jean rách gối/mausac_black_10s21dpa038_1__1.jpg",
+      "title": "Quần jean rách gối. SLIM CROP form - 10S21DPA038",
+      "price": "480.000&nbsp;₫",
+      "miniimg": "./img/mausac_black_10s21dpa038_2__1_1.jpg",
+      "contentmini1": "BLACK",
+      "id": 10
+    },
+    {
+      "image": "./img/Áo polo basic/mausac_black_10s21pol001c_2__1.jpg",
+      "title": "Áo Polo basic. FITTED form - 10S21POL001C",
+      "price": "350.000&nbsp;₫",
+      "miniimg": "./img/mausac_grey_10s21pol001c_5__1_1.jpg",
+      "contentmini1": " NIGHT SKY",
+      "id": 11
+    },
+    {
+      "image": "./img/Áo polo in sọc/mausac_dark_10s21pol003_2__1.jpg",
+      "title": " Áo Polo phối rã in sọc. FITTED form - 10S21POL003",
+      "price": "420.000&nbsp;₫",
+      "miniimg": "./img/mausac_black_10s21pol001c_1__1_1.jpg",
+      "contentmini1": "  DARK SAPPHIRE",
+      "id": 12
+    }
+  ]
+}

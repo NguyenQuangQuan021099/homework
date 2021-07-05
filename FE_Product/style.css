@@ -1,0 +1,453 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a, a:hover{  
+    color: #222;
+    text-decoration: none;
+}
+
+.row{
+   padding-left: 10px;
+    --bs-gutter-x:0;
+}
+.col-3{
+    margin-top: 20px;
+}
+
+
+.category__product__action{
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.breadcrumbs{
+    position: absolute;
+    left: 0;
+
+}
+
+.toolbar__product{
+    padding-right: 50px;
+}
+
+.filter__toggle{
+    padding-left: 50px;
+}
+.toolbar__product a{
+    height: 28px;
+    display: inline-block;
+    width: 38px;
+    background-repeat: no-repeat;
+}
+
+.toolbar__product .active{
+    background-image: url(./img/grid4active.svg);
+    padding-right: 52px;
+}
+
+.toolbar__product .disable{
+    background-image: url(./img/grid2disable.svg);
+}
+
+/* Dropdown css */
+.btn-secondary {
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+}
+
+.list-group-item.active {
+    color: black;
+    background-color: white;
+    border-style: none;
+}
+.btn-secondary:hover::before {
+    color: black;
+    background-color: white;
+    border-style: none;
+    border-bottom: 1px solid #ccc;
+    border-color: #fff;
+}
+.sorter .dropdown-item:hover {
+    color: white;
+    background-color: #1777f2;
+}
+
+/* End dropdown */
+
+/*  product items css */
+/* filter css */
+.list-group .actived-list{
+    background-color: #fff;
+    border-style: none;
+    color:black ;
+}
+
+.reset-close{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    border-style: none;
+    border-bottom: 1px solid black;
+    position: relative;
+
+}
+.reset-close button{
+    font-size: 18px;
+    margin: 0 30px;
+    border-style: none;
+    background-color: #fff;
+}
+
+.list-select{
+    width: 25.8%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    right: 0; 
+    z-index: 2;
+    background-color: #fff;
+    border-left: 1px solid black;
+    animation: mymove ease-in-out .8s;
+    transition: all 0.2s ease-in-out 0.2s;
+}
+
+.list-group-item-action:hover{
+    background-color: #fff;
+}
+
+.list-select button{
+   font-size: 18px;
+}
+
+.btn__item{
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group .item__male ul li{
+    list-style: none;
+    padding-top: 8px;
+}
+
+.filter-option-list{
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.filter-option{
+    border-bottom: 1px solid black;
+}
+
+.filter-option button .icon{
+   display: inline-block;
+   
+}
+
+.filter-option button .icon .icon-1{
+    display: none;
+}
+
+
+@keyframes mymove{
+    0%{
+        right: -100%;
+    }
+
+    50%{
+        right: -50%;
+    }
+    100%{
+        right: 0;
+    }
+}
+
+/* end filter css */
+/* product items css */
+.product{
+     max-width: 100%;
+}
+
+.product ol{
+    display: flex;
+}
+
+.product #product-list-items .product-items{
+    width: 25%;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+li .renderItems  a img{
+    width: 362px;
+    height: 543px;
+    object-fit: cover;
+}
+
+li .renderItems  .sub__div{
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+li .renderItems .sub__div .title{
+    color: #222;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+li .renderItems .sub__div .price{
+    opacity: 0.7;
+    font-size: 16px; 
+    font-family: Roboto;
+}
+
+li .renderItems .sub__div a{
+    position: relative;
+    display: inline-block;
+}
+
+li .renderItems .sub__div a img{
+    width: 25px;
+    height: 25px;
+    object-fit: none;
+}
+
+li .renderItems .sub__div a img:hover{
+    border: 1px solid black;
+}
+
+li .renderItems .sub__div a .sub__content{
+    position: absolute;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    top: -50px;
+    display: none;
+}
+
+li .renderItems .sub__div a:hover .sub__content{
+    display: block;
+}
+
+
+
+
+/* 
+.mini__img .img__mini-1, .img__mini-2, .img__mini-3-1,.img__mini-3-2, .img__mini-4-1, .img__mini-4-2,
+.img__mini-5-1,.img__mini-5-2, .img__mini-6-1, .img__mini-6-2, .img__mini-6-3, .img__mini-6-4,.img__mini-6-5,
+.img__mini-7-1, .img__mini-7-2, .img__mini-7-3, .img__mini-7-4,.img__mini-7-5, .img__mini-8,.img__mini-9-1,
+.img__mini-9-2,.img__mini-9-3,.img__mini-9-4,.img__mini-9-5,.img__mini-10,.img__mini-11-1,.img__mini-11-2,.img__mini-11-3,
+.img__mini-11-4, .img__mini-12-1, .img__mini-12-2{
+    width: 20px;
+    height: 20px;
+    background-size: initial;
+}
+
+.mini__img .img__mini-1{
+    background: url(./img/10f20dpa036.3_1_1.jpg) center no-repeat;
+}
+
+.mini__img .img__mini-2{
+    background: url(./img/_dsc9170_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-3-1 {
+    background: url(./img/dsc_5136_1_1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-3-2{
+    background: url(./img/dsc_5167_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-4-1{
+    background: url(./img/10s20pfo015_w_1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-4-2{
+    background: url(./img/10s20pfo015b_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-5-1{
+    background: url(./img/10s21pol016.6_1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-5-2{
+    background: url(./img/n6_2_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-6-1{
+    background: url(./img/cheo_19_1_16.png) no-repeat center;
+}
+
+.mini__img .img__mini-6-2{
+    background: url(./img/dsc_7571_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-6-3{
+    background: url(./img/cheo_20_1_5.png) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-6-4{
+    background: url(./img/dsc_7554_2.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-6-5{
+    background: url(./img/dsc_7585_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-7-1{
+    background: url(./img/10f20tsh001.14_2_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-7-2{
+    background: url(./img/10f20tsh001.10_2_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-7-3{
+    background: url(./img/10f20tsh001.2_2_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-7-4{
+    background: url(./img/10f20tsh001.6_2_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-8{
+    background: url(./img/10s20dpa055_01_1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-9-1{
+    background: url(./img/mausac_micro_10s20psh006_6__1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-9-2{
+    background: url(./img/mausac_tuffet_10s20psh006_5__1_1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-9-3{
+    background: url(./img/mausac_white_10s20psh006_6__1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-9-4{
+    background: url(./img/mausac_grey_10s20psh006_5__1_1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-9-5{
+    background: url(./img/mausac_black_10s20psh006_5__2_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-10{
+    background: url(./img/mausac_black_10s21dpa038_2__1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-11-1{
+    background: url(./img/mausac_grey_10s21pol001c_5__1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-11-2{
+    background: url(./img/mausac_sky_10s21pol001c_4__1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-11-3{
+    background: url(./img/mausac_black_10s21pol001c_1__1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-11-4{
+    background: url(./img/mausac_white_10s21pol001c_3__1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img .img__mini-12-1{
+    background: url(./img/mausac_black_10s21pol001c_1__1_1.jpg) no-repeat center;
+}
+
+.mini__img .img__mini-12-2{
+    background: url(./img/mausac_urban_10s21pol003_1__1_1.jpg) no-repeat center;
+    margin-left: 10px;
+}
+
+.mini__img a .sub__content{
+    width: 154px;
+    height: 40px;
+    text-align: center;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: black;
+    padding: 15px;
+    display: none;
+    position: absolute;
+    bottom: 25px;
+    background-color: white;
+    line-height: 4px; 
+}
+.mini__img a:hover{
+    border: 1px solid black;
+}
+
+.mini__img a:hover .sub__content{
+    display: block;
+} */
+
+/* End product items */
+
+/* Begin pagination */
+.pagination{
+    display: block;
+}
+
+.pagination ul{
+    display: flex;
+    justify-content: center;
+}
+.pagination ul li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: #707070;
+    margin: 12px 6px;
+    text-align: center;
+}
+
+.pagination ul .item__current a{
+    color: black;
+}
+
+.pagination ul li:hover a{
+    background-color: #ccc;
+    border-radius: 2px;
+    padding: 6px 12px;
+}
+
+/* End paginaton */
